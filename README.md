@@ -13,6 +13,7 @@ We proposed a unified network called CorrFusionNet for scene change detection. T
 <img src="./figures/corrfusion.png">
 </div>
 
+
 - The proposed CorrFusionNet:
 <div align=center>
 <img src="./figures/corrfusionnet.png" width="50%">

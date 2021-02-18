@@ -225,9 +225,9 @@ def main(cfg=None):
         'label_t2': label_t2
     }
 
-    #saveNpy(out_dir='./data_small/trn/',file=file_dict, index=trn_idx)
-    #saveNpy(out_dir='./data_small/val/',file=file_dict, index=val_idx)
-    #saveNpy(out_dir='./data_small/tst/',file=file_dict, index=tst_idx)
+    saveNpy(out_dir='./data_small/trn/',file=file_dict, index=trn_idx)
+    saveNpy(out_dir='./data_small/val/',file=file_dict, index=val_idx)
+    saveNpy(out_dir='./data_small/tst/',file=file_dict, index=tst_idx)
 
     return True
 
